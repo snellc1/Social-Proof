@@ -93,9 +93,10 @@ main {
     margin-right: 20px
 }
 
-.box p {
+.box h2 {
     position: relative;
     top: 2px;
+    font-size: 15px;
 }
 
 #bottom {
