@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+:root {
+    /*Primary*/
+    --dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+
+    /*Neutral*/
+    --d-gray-magenta: hsl(303, 10%, 53%);
+    --l-gray-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+    background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+    background-position: top left,bottom right;
+    background-repeat: no-repeat;
+    background-size: 500px, 950px;
+
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+}
+
+#top {
+    display: flex;
+    margin: 80px;
+}
+
+#top-left {
+    color: var(--dark-magenta);
+    width: 450px;
+}
+
+#top-left h1 {
+    font-size: 300%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+#top-left p {
+    font-size: 15px;
+}
+
+#top-right {
+    margin-top: 50px;
+    margin-left: 350px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    display: flex;
+    justify-content: left;    
+    align-items: center;
+    width: 425px;
+    height: 50px;
+    background-color: var(--l-gray-magenta);
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--dark-magenta);
+    border-radius: 5px;
+    margin: 8px;
+}
+
+
+#guru {
+    margin-left: 60px;
+}
+
+#tech {
+    margin-left: 110px;
+}
+
+
+.star {
+    margin: 0 5px ;
+}
+
+.first-star {
+    margin-left: 30px;
+}
+
+.last-star {
+    margin-right: 20px
+}
+
+.box p {
+    position: relative;
+    top: 2px;
+}
+
+#bottom {
+    display: flex;
+    margin: 0 60px 20px;
+}
+
+.profile-card {
+    width: 335px;
+    max-width: 335px;
+    height: 180px;
+    background-color: var(--dark-magenta);
+    border-radius: 10px;
+    padding: 30px ;
+    margin: 15px;
+}
+
+#irene {
+    margin-top: 30px;
+}
+
+#anne {
+    margin-top: 50px;
+}
+
+.headshot {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+.profile-card div {
+    position: relative;
+    top: -5px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.profile-card h2 {
+    color: var(--white);
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.profile-card span {
+    color: var(--soft-pink);
+    font-size: 15px;
+}
+
+.clear {
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.profile-card p {
+    color: var(--l-gray-magenta);
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer {
+    height: 30px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media screen and (max-width: 900px) {
+
+    body {
+        background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
+    }
+
+    #top {
+        flex-direction: column;
+        margin: 30px auto;
+    }
+
+    #top-left {
+        width: 340px;
+        text-align: center;
+    }
+
+    #top-left h1 {
+        font-size: 200%;
+    }
+
+    #top-left p {
+        line-height: 1.5;
+        margin-bottom: 40px;
+    }
+
+    #top-right {
+        margin: 0;
+    }
+
+    .box {
+        height: 70px;
+        justify-content: center;
+        width: 330px;
+        margin: 5px 0;;
+        flex-direction: column;
+    }
+    .star-container {
+        padding-top: 5px;
+    }
+
+    #guru, #tech {
+        margin-left: 0;
+    }
+
+    #bottom {
+        flex-direction: column;
+        margin: 0 auto 20px;
+    }
+    
+    .profile-card {
+        width: 310px;
+        max-width: 310px;
+        height: 200px;
+    }
+    
+    #irene, #anne {
+        margin-top: 0;
+    }
+      
+  }
