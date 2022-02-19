@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/snellc1/Social-Proof](https://github.com/snellc1/Social-Proof)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://snellc1.github.io/Social-Proof/](https://snellc1.github.io/Social-Proof/)
 
 ## My process
 
@@ -57,6 +57,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Christopher Snell](https://snellc1.github.io/chrissnell/)
 - Frontend Mentor - [@snellc1](https://www.frontendmentor.io/profile/snellc1)
 
